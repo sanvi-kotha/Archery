@@ -7,7 +7,7 @@ class Computer{
         this.body = Bodies.rectangle(x,y,width,height,computer_options);
         this.width = width;
         this.height = height;
-        this.image = loadImage("assets/player.png");
+        this.image = loadImage("player.png");
 
         World.add(my_world,this.body);
     }
